@@ -138,3 +138,12 @@ class QueryRequest(BaseModel):
 async def ask_agent(req: QueryRequest):
     response = agent.invoke({"input": req.query})
     return {"content": response.get("output")}
+
+@app.get("/info")
+async def get_server_info():
+    """
+    Get basic server information.
+
+    TODO: Return system status, environment info, uptime, or other useful metadata.
+    """
+    return {}
