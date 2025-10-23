@@ -1,21 +1,21 @@
-# 🧠 LangChain Assistant
+# LangChain Assistant
 
 A lightweight, modular, and agent-powered AI research assistant built with **FastAPI**, **LangChain**, and **Next.js**. It supports multi-tool reasoning using LLMs, web search (via SerpAPI), math evaluation, and custom logic tools — making it ideal for research, information retrieval, and interactive reasoning tasks.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🤖 **LLM Agent (LangChain)** with multi-tool capabilities
-- 🌐 **Web search** using SerpAPI
-- 🧹 **Custom logic tools** for reasoning tasks
-- 💡 **Memory-enabled conversation flow**
-- ⚡ FastAPI backend + Next.js frontend
-- 🧹 Easily customizable and extendable
+-  **LLM Agent (LangChain)** with multi-tool capabilities
+-  **Web search** using SerpAPI
+-  **Custom logic tools** for reasoning tasks
+-  **Memory-enabled conversation flow**
+-  FastAPI backend + Next.js frontend
+-  Easily customizable and extendable
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
 - Backend: [FastAPI](https://fastapi.tiangolo.com/), [LangChain](https://www.langchain.com/), [DeepInfra](https://deepinfra.com/) / [Ollama](https://ollama.ai/)
 - Frontend: [Next.js](https://nextjs.org/) (in `research_agent/` directory)
@@ -87,9 +87,9 @@ Make sure the `ALLOWED_ORIGIN` in your `.env` matches this URL.
 
 ---
 
-## 🧪 Example Usage
+## API Usage
 
-### 🧠 Ask a Question
+### Ask a Question
 
 Send a POST request to `/ask` endpoint:
 
@@ -111,7 +111,7 @@ Or use the chat interface in the `research_agent` frontend to interact via a sle
 
 ---
 
-## 🧰 Custom Tools
+## Custom Tools
 
 This project supports easily pluggable custom tools. You can create your own logic tools like this:
 
