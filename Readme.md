@@ -1,6 +1,10 @@
 # LangChain Assistant
 
-A lightweight, modular, and agent-powered AI research assistant built with **FastAPI**, **LangChain**, and **Next.js**. It supports multi-tool reasoning using LLMs, web search (via SerpAPI), math evaluation, and custom logic tools — making it ideal for research, information retrieval, and interactive reasoning tasks.
+A small experimental project built while learning **LangChain** and **tool integrations**.  
+This app uses **FastAPI**, **LangChain**, and **Next.js** to demonstrate how LLMs can interact with external tools like **SerpAPI** (for web search), **LLMMathChain** (for math evaluation), and simple **custom logic functions**.  
+
+The goal of this project was to explore multi-tool reasoning and build a minimal interactive interface using an **Ollama-served LLM backend**.  
+It’s a learning-focused implementation rather than a production-level AI assistant.
 
 ---
 
