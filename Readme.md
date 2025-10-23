@@ -33,7 +33,7 @@ It’s a learning-focused implementation rather than a production-level AI assis
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Rakesh-46-VR/AutoResearchAgent.git
+git clone https://github.com/Rakesh-46-VR/LangChainAssistant.git
 cd AutoResearchAgent
 ```
 
